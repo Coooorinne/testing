@@ -1,4 +1,4 @@
-Input = "101010101" #Insert binary number here
+Input = "00000000000000000000000000001011" #Insert binary number here
 n =int(Input, 2)    #treats the input as binary
 
 def count_bits(n):
