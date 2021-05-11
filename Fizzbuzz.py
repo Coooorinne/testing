@@ -1,9 +1,10 @@
-n = int(100001)
-r = range(1, n+1)
+n = int(15)
+r = range(1, n+1) #you could also range over it range(n+1)
 l = list(r)
 #print(l)
 
-
+#class: a function in a class only affects everything in the class itself (not global)
+# e. g. all API requests are in a class, e. g. login is the init function (the inital thing that you would do, everything after that within the class would include the init function)
 
 
 def fizzbuzz(n):
@@ -20,7 +21,7 @@ def fizzbuzz(n):
             else:
                 output.append(str(num))
     else:
-        print("Please choose a value between 1 and 1000")
+        print("Please choose a value between 1 and 10000")
     return output
 
 print(fizzbuzz(n))
