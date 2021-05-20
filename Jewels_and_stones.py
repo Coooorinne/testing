@@ -12,14 +12,11 @@
 
 #------------------------------------------------------------
 jewels = input("Please enter the types of stones that are jewels: ")
-# print(f"type of your response is {type(jewels)}")
-
+# print(f"type is {type(jewels)}")
 stones = input("Please also enter the stones you have: ")
-# print(f"type of your response is {type(stones)}")
-
+# print(f"type is {type(stones)}")
 
 def jewels_and_stones(jewels, stones):
-
     count = 0
 
     for char in jewels:
@@ -40,4 +37,11 @@ print(f"You have {result} jewels")
 # 1. Input method
 # 2. Pseudo code for logic
 # 3. Function with code logic
+
+#Other Approach:
+#set_jewels = set(jewels)
+#for stone in stones:
+#    if stone in set_jewels:
+#       count += 1
+
 #------------------------------------------------------------
